@@ -16,7 +16,7 @@ var Nav = React.createClass({
   },
   render: function (){
     return (
-        <div>
+        <div className="top-bar">
           <div className="top-bar-title">
             <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
               <button className="menu-icon" type="button" data-toggle></button>
